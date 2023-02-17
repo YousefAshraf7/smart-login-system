@@ -1,0 +1,32 @@
+h1{
+
+    color: #17a2b8;
+}
+.bg{
+padding-top: 90px;
+background: #24353f;
+}
+
+input{
+    background-color: #24353f!important;
+    padding: 10px!important;
+}
+.content{
+    box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+}
+button{
+    background-color: #24353f;
+    color: #17a2b8;
+
+
+}
+.btn-outline-info:hover {
+    color: #fff;
+    background-color: #17a2b8!important;
+    border-color: #17a2b8;
+
+}
+p a:hover{
+    text-decoration: underline!important;
+    cursor: pointer;
+}

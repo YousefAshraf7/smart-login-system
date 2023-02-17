@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>DashBoard</title>
+</head>
+<body>
+    <div class="bg vh-100 w-100 d-flex justify-content-center   text-center">
+        <div class=" container col-sm-4 ">
+            <div class="content p-5"> 
+                <h1 class="pt-2 pb-4">Smart Login System</h1>
+                <form action="" class="pb-3">
+                    <input type="text" class="form-control d-none" placeholder="usernamer" id="username">
+                    <p class="text-danger text-center " id="usernameValid"></p>
+                    <input type="text" class="form-control" placeholder="email" id="email">
+                    <p class="text-danger text-center" id="emailValid"></p>
+                    <input type="password" class="form-control" placeholder="password" id="password">
+                    <p class="text-danger text-center" id="passwordValid"></p>
+                    <div class="alert p-0 text-center text-danger fs-4"></div>
+                </form> 
+                <button  class="signin btn btn-outline-info w-100 d-block">signin</button>
+                <button  class="signup btn btn-outline-info  w-100 d-none">signup</button>
+                <p class="route-signin text-white  d-none">you have an account <a>signin</a></p>
+                <p class="route-signup text-white 1 d-block">dont have an account     <a>signup</a></p>
+            </div>
+        </div>
+    </div>
+    
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <!-- <script src="js/home.js"></script> -->
+</body>
+</html>
